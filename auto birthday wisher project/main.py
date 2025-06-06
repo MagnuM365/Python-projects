@@ -12,7 +12,7 @@ today = (now.month, now.day)
 # Use pandas to read the birthdays.csv
 
 data = pandas.read_csv("birthdays.csv")
-
+2
 # Use dictionary comprehension to create a dictionary from birthday.csv that is formated like this:
 # birthdays_dict = {
 #     (birthday_month, birthday_day): data_row
